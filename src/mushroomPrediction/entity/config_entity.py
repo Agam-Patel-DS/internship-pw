@@ -42,3 +42,7 @@ class ModelEvaluationConfig:
     X_test: str
     y_test: str
     report_file: str
+
+@dataclass
+class PredictionConfig:
+    model_path: str

@@ -41,3 +41,6 @@ model_evaluation:
   X_test: artifacts/transformed/X_test.csv
   y_test: artifacts/transformed/y_test.csv
   report_file: artifacts/evaluation/report.json
+
+prediction:
+  model_path: artifacts/model/model.pkl

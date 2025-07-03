@@ -1,5 +1,5 @@
 from src.mushroomPrediction.utils.common import read_yaml_file, create_directory
-from src.mushroomPrediction.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig, ModelEvaluationConfig
+from src.mushroomPrediction.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig, ModelEvaluationConfig, PredictionConfig
 from pathlib import Path
 
 class ConfigurationManager:
@@ -71,3 +71,7 @@ class ConfigurationManager:
             report_file=config["report_file"]
         )
         return model_evaluation_config
+  
+  def PredictionManager(self) -> PredictionConfig:
+        config = self.config["prediction"]
+        return PredictionConfig(model_path=config["model_path"])
