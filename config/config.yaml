@@ -7,8 +7,15 @@ data_ingestion:
   link: https://drive.google.com/file/d/1mlqzcDwiGC5W54hTMBETldwIIM_Q8gfN/view?usp=sharing
   raw_data_name: roo_data.csv
 
-data_transformation:
-
+data_validation:
+  raw_data_path: artifacts/ingestion/raw_data/roo_data.csv
+  expected_columns: [
+    'class', 'cap-shape', 'cap-surface', 'cap-color', 'bruises', 'odor',
+    'gill-attachment', 'gill-spacing', 'gill-size', 'gill-color',
+    'stalk-shape', 'stalk-root', 'stalk-surface-above-ring',
+    'stalk-surface-below-ring', 'stalk-color-above-ring',
+    'stalk-color-below-ring', 'veil-type', 'veil-color', 'ring-number',
+    'ring-type', 'spore-print-color', 'population', 'habitat']
   
 
 model_training:

@@ -1,5 +1,5 @@
 from src.mushroomPrediction.utils.common import read_yaml_file, create_directory
-from src.mushroomPrediction.entity.config_entity import DataIngestionConfig, DataTransformationConfig, ModelTrainingConfig, PredictionConfig
+from src.mushroomPrediction.entity.config_entity import DataIngestionConfig, DataValidationConfig#, DataTransformationConfig, ModelTrainingConfig, PredictionConfig
 
 class ConfigurationManager:
   def __init__(self):
@@ -17,6 +17,14 @@ class ConfigurationManager:
         raw_data_name=config["raw_data_name"]
     )
     return data_ingestion_config
+  
+  def DataValidationManager(self):
+    config=self.config["data_validation"]
+    data_validation_config=DataValidationConfig(
+        raw_data_path=config["raw_data_path"],
+        expected_columns=config["expected_columns"]
+    )
+    return data_validation_config
 
   def DataTransformationManager(self):
     config=self.config["data_transformation"]

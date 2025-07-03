@@ -16,6 +16,9 @@ class DataIngestion:
             file_id = self.config.link.split('/')[-2]
             destination_path = os.path.join(self.config.raw_data_dir, self.config.raw_data_name)
             gdown.download(id=file_id, output=destination_path, quiet=False)
-            print(f"Downloaded data to {destination_path}")
+            logger.info(f"Downloaded data to {destination_path}")
+            logger.info("Data Ingestion Successfull")
         else:
-            print("No download link provided.")
+            logger.warning("No download link provided.")
+
+        
