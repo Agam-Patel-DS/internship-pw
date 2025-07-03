@@ -9,3 +9,6 @@ joblib
 streamlit
 loguru
 gdown
+dvc
+mlflow
+xgboost

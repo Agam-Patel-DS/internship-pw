@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/internship-pw/mlruns/792962264456202101/79adee5f87bd464ea37d17a5bba7083d/artifacts
+end_time: 1751543073438
+entry_point_name: ''
+experiment_id: '792962264456202101'
+lifecycle_stage: active
+run_id: 79adee5f87bd464ea37d17a5bba7083d
+run_name: likeable-fowl-160
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751543066531
+status: 3
+tags: []
+user_id: codespace

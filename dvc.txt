@@ -1,0 +1,14 @@
+# Step 1: Initialize DVC
+dvc init
+git add .dvc .dvcignore
+git commit -m "Initialize DVC"
+
+# Step 2: Track raw data
+dvc add artifacts/ingestion/raw_data.csv
+
+# Step 3: Track transformed data
+dvc add artifacts/transformed
+
+# Step 4: Commit DVC tracking files to Git
+git add artifacts/ingestion/raw_data.csv.dvc artifacts/transformed.dvc
+git commit -m "Track raw and transformed data using DVC"

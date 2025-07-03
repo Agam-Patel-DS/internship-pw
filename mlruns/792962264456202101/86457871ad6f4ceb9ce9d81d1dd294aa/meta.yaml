@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/internship-pw/mlruns/792962264456202101/86457871ad6f4ceb9ce9d81d1dd294aa/artifacts
+end_time: 1751543073506
+entry_point_name: ''
+experiment_id: '792962264456202101'
+lifecycle_stage: active
+run_id: 86457871ad6f4ceb9ce9d81d1dd294aa
+run_name: suave-wolf-228
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751543073480
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/internship-pw/mlruns/792962264456202101/4b13d5a66d8c41afab8f42493987a761/artifacts
+end_time: 1751542046726
+entry_point_name: ''
+experiment_id: '792962264456202101'
+lifecycle_stage: active
+run_id: 4b13d5a66d8c41afab8f42493987a761
+run_name: likeable-calf-813
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751542039479
+status: 3
+tags: []
+user_id: codespace

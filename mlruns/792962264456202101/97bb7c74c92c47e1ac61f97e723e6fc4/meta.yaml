@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/internship-pw/mlruns/792962264456202101/97bb7c74c92c47e1ac61f97e723e6fc4/artifacts
+end_time: 1751542884487
+entry_point_name: ''
+experiment_id: '792962264456202101'
+lifecycle_stage: active
+run_id: 97bb7c74c92c47e1ac61f97e723e6fc4
+run_name: funny-snail-218
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751542884464
+status: 3
+tags: []
+user_id: codespace

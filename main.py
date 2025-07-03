@@ -7,6 +7,9 @@ logger.info("The Logger is Initialised Here")
 import os
 from src.mushroomPrediction.pipeline.dataIngestionPipeline import DataIngestionPipeline
 from src.mushroomPrediction.pipeline.dataValidationPipeline import DataValidationPipeline
+from src.mushroomPrediction.pipeline.dataTransformationPipeline import DataTransformationPipeline
+from src.mushroomPrediction.pipeline.modelTrainerPipeline import ModelTrainerPipeline
+from src.mushroomPrediction.pipeline.modelEvaluationPipeline import ModelEvaluationPipeline
 
 try:
     DataIngestionPipeline()
@@ -18,3 +21,17 @@ try:
 except Exception as e:
     logger.error(CustomException(e, sys))
 
+try:
+    DataTransformationPipeline()
+except Exception as e:
+    logger.error(CustomException(e, sys))
+
+try:
+    ModelTrainerPipeline()
+except Exception as e:
+    logger.error(CustomException(e, sys))
+
+try:
+    ModelEvaluationPipeline()
+except Exception as e:
+    logger.error(CustomException(e, sys))
