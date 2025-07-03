@@ -1,0 +1,23 @@
+root: artifacts
+
+data_ingestion:
+
+  root: artifacts/ingestion
+  raw_data_dir: artifacts/ingestion/raw_data
+  link: https://drive.google.com/file/d/1mlqzcDwiGC5W54hTMBETldwIIM_Q8gfN/view?usp=sharing
+  raw_data_name: roo_data.csv
+
+data_transformation:
+
+  
+
+model_training:
+
+  
+
+prediction:
+
+  
+
+
+
