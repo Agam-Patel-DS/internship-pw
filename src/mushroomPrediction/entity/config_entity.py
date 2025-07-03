@@ -46,3 +46,4 @@ class ModelEvaluationConfig:
 @dataclass
 class PredictionConfig:
     model_path: str
+    encoder_path: str

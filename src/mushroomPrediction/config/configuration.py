@@ -73,5 +73,8 @@ class ConfigurationManager:
         return model_evaluation_config
   
   def PredictionManager(self) -> PredictionConfig:
-        config = self.config["prediction"]
-        return PredictionConfig(model_path=config["model_path"])
+    config = self.config["prediction"]
+    return PredictionConfig(
+        model_path=config["model_path"],
+        encoder_path=config["encoder_path"]
+    )
