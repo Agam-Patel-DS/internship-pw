@@ -67,6 +67,7 @@ The dataset is sourced from the UCI Mushroom Classification dataset via Kaggle. 
 ---
 
 ## Deployed Frontend
+
 The user interface for real-time prediction is deployed at:
 [Click Here](https://mushroom-frontend-bay.vercel.app/)
 You can select feature values through dropdowns and get an instant classification.
@@ -108,7 +109,6 @@ This will:
 
 
 ## Contributor
+
 Agam Patel
 ---
-
-
